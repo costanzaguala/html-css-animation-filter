@@ -83,6 +83,14 @@ background-color: red;
     filter: grayscale(1);
 }
 
+.ex-7-img:hover{
+    filter: grayscale(1) blur(10px);
+}
+
+.ex-7-img {
+    transition: 3s;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
