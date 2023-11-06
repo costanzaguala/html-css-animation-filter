@@ -104,6 +104,17 @@ background-color: red;
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover {
+    filter: grayscale(1) blur(10px);
+    border-radius: 20%;
+    transform: scale(2);
+}
+
+.ex-9-img {
+    transition: 3s;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
