@@ -91,6 +91,15 @@ background-color: red;
     transition: 3s;
 }
 
+.ex-8-img:hover {
+    filter: grayscale(1) blur(10px);
+    border-radius: 20%;
+}
+
+.ex-8-img {
+    transition: 3s;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
